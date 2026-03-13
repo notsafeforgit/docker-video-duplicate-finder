@@ -8,12 +8,12 @@
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG VIDEO_DUPLICATE_FINDER_COMMIT_SHA=47d78f6
+ARG VIDEO_DUPLICATE_FINDER_COMMIT_SHA=47d78f681d555bd63ac5be684d75b4a2d64c5a86
 ARG VIDEO_DUPLICATE_FINDER_VERSION=3.0.x-${VIDEO_DUPLICATE_FINDER_COMMIT_SHA}
 ARG FFMPEG_VERSION=8.0.1
 
 # Define software download URLs.
-ARG VIDEO_DUPLICATE_FINDER_URL=https://github.com/0x90d/videoduplicatefinder/archive/${VIDEO_DUPLICATE_FINDER_COMMIT_SHA}.tar.gz
+ARG VIDEO_DUPLICATE_FINDER_URL=https://github.com/notsafeforgit/videoduplicatefinder/archive/${VIDEO_DUPLICATE_FINDER_COMMIT_SHA}.tar.gz
 ARG FFMPEG_URL=https://ffmpeg.org/releases/ffmpeg-${FFMPEG_VERSION}.tar.xz
 
 # Get Dockerfile cross-compilation helpers.
